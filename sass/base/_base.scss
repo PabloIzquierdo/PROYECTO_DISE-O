@@ -1,0 +1,17 @@
+* {
+    padding: 0vw;
+    margin: 0vw;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+
+    &:hover, &:focus {
+        color: grey;
+    } 
+
+    &:active {
+        color: white;
+    }
+}

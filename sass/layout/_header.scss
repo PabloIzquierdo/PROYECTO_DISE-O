@@ -1,0 +1,122 @@
+.header {
+    &_n {
+        padding: 1vw;
+        border: solid black 0.5vw;
+    }
+
+    &_ul {
+        width: 100%;
+    }
+
+    &_log {
+        float: right;
+        margin: 0.5vw;
+
+        &--link {
+            font-size: 0.9vw;
+            margin-right: 0.7vw;
+            list-style: none;
+            display: inline-block;            
+    
+            &-ES {
+                width: 1.4vw;
+                height: 0.8vw;
+                margin-right: 0.5vw;
+            }
+            &-ubica {
+                width: 0.9vw;
+                height: 0.9vw;
+                margin-right: 0.2vw;
+            }
+            &-hlp {
+                width: 0.7vw;
+                height: 1.02vw;
+                margin-right: 0.1vw;
+            }
+            &-email {
+                width: 1.1vw;
+                height: 0.94vw;
+                margin-right: 0.1vw;
+            }
+            &-info {
+                width: 1vw;
+                height: 0.9vw;
+            }
+            &-cuenta {
+                width: 0.9vw;
+                height: 0.9vw;
+                margin-right: 0.2vw;
+            }
+            &-cesta {
+                width: 1.2vw;
+                height: 0.9vw;
+                margin-right: 0.2vw;
+            }
+        }
+    }
+    
+    &_nav{
+        margin-top: 4vw;
+        display: flex;
+        margin-right: 3vw;
+        margin-left: 7vw;
+        font-size: 1vw;
+    
+        &--link, &--search, &--link{
+            display: inline-block;
+        }
+    
+        &--link{
+            margin-left: 2vw;
+            letter-spacing: 0.5vw;
+            font-weight: bold;
+            margin-right: 1vw;
+
+            &-enlace {
+                color: black;
+
+                &-enlace:hover, &:focus {
+                    color: grey;
+                } 
+
+                &:active {
+                    color: white;
+                }
+            }
+        }
+    
+        &--search{
+            float: right;
+            height: 1.5vw;
+    
+            &::placeholder {
+                font-size: 1vw;
+            }
+        }
+    
+        &--size {
+            margin-top: -0.5vw;
+            width: 15vw;
+            height: 2vw;
+        }
+    
+        &--loop {
+            float: right;
+            width: 2vw;
+            height: 2vw;
+            margin-top: -0.5vw;
+            margin-right: -18.5vw;
+        }
+        
+        &--log {
+            width: 5vw;
+            height: 5vw;
+            float: left;
+            margin-top: -3.9vw;
+            margin-left: -6vw;
+        }
+    }
+}
+
+
+
