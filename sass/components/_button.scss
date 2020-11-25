@@ -1,0 +1,27 @@
+.btn__genre {
+    padding:1rem 1.5rem;
+    text-decoration:none;
+    text-transform:uppercase;
+    cursor:pointer;
+    color:rgb(212, 23, 23);
+    border:1px solid black;
+    border-radius:4rem;
+    width:9vw;
+    text-align:center;
+    z-index:1000;
+    //display:inline-block;
+    //position:relative;
+
+    /*&-girl a{
+        
+    }
+
+    &-boy a{
+        
+    }*/
+
+    &:hover {
+        background-color:grey;
+        color:white;
+    }
+ }

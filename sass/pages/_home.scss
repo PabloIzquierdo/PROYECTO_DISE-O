@@ -1,32 +1,23 @@
-.main_nav{
-    color: white;
-    height: 3vw;
-    background-color: black;
-    border: solid black 0.5vw;
 
-    &--title {
-        width: 20vw;
-        margin-left: 40vw;
+.section-genre {
+    height:100vh;
+    padding:0 0;
+
+    &__girl {
+        position:absolute;
     }
 
-    &--icon-l {
-        font-size: 3vw;
-        width: 2vw;
-        height: 3.5vw;
-        margin-left: 0.5vw;
-        margin-top: -1vw;
-        float: left;
-        color: white;
-        clip-path: text;
+    &__boy {
+        position:absolute;
+        left:50%;
     }
-    &--icon-r {
-        font-size: 3vw;
-        height: 3.5vw;
-        width: 2vw;
-        margin-top: -2.5vw;    
-        float: right;
-        color: white;
-        clip-path: text;
+
+    &__girl:hover img{
+        filter:none;
     }
+
+    &__boy:hover img{
+        filter:none;
+    }
+
 }
-
