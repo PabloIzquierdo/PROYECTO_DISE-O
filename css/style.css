@@ -1,14 +1,16 @@
 * {
   box-sizing: inherit;
   padding: 0;
-  margin: 0; }
+  margin: 0; 
+}
 
 html {
   font-size: 62.5%; }
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  font-size: 2em;}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -267,6 +269,10 @@ body {
 .section-commercial__store {
   max-width: 100%; }
 
+
+footer{
+  border:solid black 0.5vw;
+}
 
 a{
   text-decoration: none;
