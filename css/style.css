@@ -206,13 +206,15 @@ body {
           color: #ff0000; }
     .header_nav--search {
       float: right;
-      height: 1.5vw; }
+      height: 1.5vw;
+      margin-right: 0vw; }
       .header_nav--search::placeholder {
         font-size: 1vw; }
     .header_nav--size {
       margin-top: -0.5vw;
       width: 15vw;
-      height: 2vw; }
+      height: 2vw;
+      font-size: 1vw; }
     .header_nav--loop {
       float: right;
       width: 2vw;
@@ -225,7 +227,7 @@ body {
       height: 5vw;
       float: left;
       margin-top: -3.9vw;
-      margin-left: -6vw; }
+      margin-left: -8vw; }
 
 .main_nav {
   color: #ffff;

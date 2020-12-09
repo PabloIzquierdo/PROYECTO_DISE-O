@@ -99,6 +99,7 @@
         &--search{
             float: right;
             height: 1.5vw;
+            margin-right: 0vw;
     
             &::placeholder {
                 font-size: 1vw;
@@ -109,6 +110,7 @@
             margin-top: -0.5vw;
             width: 15vw;
             height: 2vw;
+            font-size: 1vw;
         }
     
         &--loop {
@@ -125,7 +127,7 @@
             height: 5vw;
             float: left;
             margin-top: -3.9vw;
-            margin-left: -6vw;
+            margin-left: -8vw;
         }
     }
 }
