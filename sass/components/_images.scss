@@ -3,3 +3,23 @@
     width:50%;
     filter:grayscale(100%);
 }
+
+.section-season--img{
+    height: 100%;
+    width: 100%;
+    transition: all .25s;
+    border-radius: 3px;
+    filter: grayscale(100%);
+
+    &:hover{
+        transform: translateY(-3rem);
+        filter: grayscale(0%);
+    }
+}
+
+
+.section-commercial__store--img{
+    width: 100vh;
+    height: 50%;
+    transform: translateX(3rem)
+}

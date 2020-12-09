@@ -21,3 +21,20 @@
     }
 
 }
+
+.section-season{
+    padding: 10rem 0;
+    background-color: black;
+
+    &:hover .heading-season{
+        opacity:1;
+    }
+
+    &:hover .btn-season{
+        opacity:1;
+    }
+}
+
+.section-commercial__store{
+    max-width: 100%;
+}

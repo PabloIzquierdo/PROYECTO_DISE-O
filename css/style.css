@@ -18,32 +18,82 @@
 body {
   font-family: Arial, Helvetica, sans-serif; }
 
-.btn__genre {
-  padding: 1rem 1.5rem;
+.heading-secondary {
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 30px;
+  transition: all .5s;
+  color: #ffff; }
+  .heading-secondary :hover {
+    transform: scale(1.2);
+    letter-spacing: 50px; }
+
+.heading-season {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 2rem;
+  transform: translateY(-20rem);
+  opacity: 0;
+  color: white;
+  background-color: black;
+  transition: all .5s; }
+
+.btn-season {
   text-decoration: none;
   text-transform: uppercase;
-  cursor: pointer;
-  color: #d41717;
+  transform: translateY(-40px);
+  color: black;
+  font-size: 1.5rem;
+  position: relative;
+  top: -20rem;
+  padding: 5px 30px;
+  background-color: white;
   border: 1px solid black;
-  border-radius: 4rem;
-  width: 9vw;
-  text-align: center;
-  z-index: 1000;
-  /*&-girl a{
-        
-    }
-
-    &-boy a{
-        
-    }*/ }
-  .btn__genre:hover {
-    background-color: grey;
-    color: white; }
+  opacity: 0;
+  transition: all 0.5s; }
 
 .img-genre {
   height: 100%;
   width: 50%;
   filter: grayscale(100%); }
+
+.section-season--img {
+  height: 100%;
+  width: 100%;
+  transition: all .25s;
+  border-radius: 3px;
+  filter: grayscale(100%); }
+  .section-season--img:hover {
+    transform: translateY(-3rem);
+    filter: grayscale(0%); }
+
+.section-commercial__store--img {
+  width: 100vh;
+  height: 50%;
+  transform: translateX(3rem); }
+
+.row {
+  max-width: 95%;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .col-1-of-4 {
+    width: 25vh;
+    height: 50vw; }
+  .row [class^="col-"] {
+    float: left; }
+  .row .col-1-of-4 {
+    width: calc(1 * ((100% - (4 - 1) * 6rem) / 4) + (1 - 1) * 6rem); }
+  .row .col-1-of-4:not(:last-child) {
+    margin-right: 6rem; }
+  .row .col-1-of-3 {
+    width: calc(1 * ((100% - (3 - 1) * 6rem) / 3) + (1 - 1) * 6rem); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - (3 - 1) * 6rem) / 3) + (2 - 1) * 6rem); }
 
 .header_n {
   padding: 1vw;
@@ -168,3 +218,14 @@ body {
     filter: none; }
   .section-genre__boy:hover img {
     filter: none; }
+
+.section-season {
+  padding: 10rem 0;
+  background-color: black; }
+  .section-season:hover .heading-season {
+    opacity: 1; }
+  .section-season:hover .btn-season {
+    opacity: 1; }
+
+.section-commercial__store {
+  max-width: 100%; }
