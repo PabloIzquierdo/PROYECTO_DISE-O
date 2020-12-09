@@ -1,22 +1,9 @@
 * {
   padding: 0vw;
   margin: 0vw;
-  width: 100%;
   box-sizing: border-box; }
 
-/*a {
-    color: black;
-
-    &:hover, &:focus {
-        color: grey;
-    } 
-
-    &:active {
-        color: white;
-    }
-}*/
-body {
-  font-family: Arial, Helvetica, sans-serif; }
+<<<<<<< HEAD
 
 .heading-secondary {
   text-transform: uppercase;
@@ -95,6 +82,18 @@ body {
   .row .col-2-of-3 {
     width: calc(2 * ((100% - (3 - 1) * 6rem) / 3) + (2 - 1) * 6rem); }
 
+=======
+a {
+  color: black; }
+  a:hover, a:focus {
+    color: grey; }
+  a:active {
+    color: white; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+>>>>>>> 4d17e722a76a786831104e919f289c69c877c815
 .header_n {
   padding: 1vw;
   border: solid black 0.5vw; }
@@ -181,8 +180,7 @@ body {
 
 .main_nav {
   color: white;
-  height: 6vh;
-  text-align: center;
+  height: 3vw;
   background-color: black;
   border: solid black 0.5vw; }
   .main_nav--title {
@@ -191,7 +189,7 @@ body {
   .main_nav--icon-l {
     font-size: 3vw;
     width: 2vw;
-    height: 3.5vh;
+    height: 3.5vw;
     margin-left: 0.5vw;
     margin-top: -1vw;
     float: left;
@@ -199,12 +197,13 @@ body {
     clip-path: text; }
   .main_nav--icon-r {
     font-size: 3vw;
-    height: 3.5vh;
+    height: 3.5vw;
     width: 2vw;
     margin-top: -2.5vw;
     float: right;
     color: white;
     clip-path: text; }
+<<<<<<< HEAD
 
 .section-genre {
   height: 100vh;
@@ -229,3 +228,5 @@ body {
 
 .section-commercial__store {
   max-width: 100%; }
+=======
+>>>>>>> 4d17e722a76a786831104e919f289c69c877c815
