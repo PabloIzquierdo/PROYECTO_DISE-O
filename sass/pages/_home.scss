@@ -2,25 +2,8 @@
 .section-genre {
     height:100vh;
     padding:0 0;
-    width: 100%;
-
-    &__girl {
-        position:absolute;
-    }
-
-    &__boy {
-        position:absolute;
-        left:50%;
-    }
-
-    &__girl:hover img{
-        filter:none;
-    }
-
-    &__boy:hover img{
-        filter:none;
-    }
-
+    width: 100vw;
+    text-align: center;
 }
 
 .section-season{

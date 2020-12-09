@@ -1,7 +1,46 @@
-.img-genre {
-    height:100%;
-    width:50%;
-    filter:grayscale(100%);
+.section-genre__figure {
+    position: absolute;
+    width: 100%;
+    
+    &:hover .btn-genre{
+        opacity: 1;
+    }
+
+    &:hover &-img{
+        filter: none;
+    }
+
+    & .btn-genre{
+        z-index: 1;
+        position: absolute;
+        top: 75vh;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    &-img{
+        filter:grayscale(100%);
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        transition: filter 0.5s;
+    }
+
+    &-girl{
+        left: 0;
+        
+        &~.btn-genre{
+            left: 20%;
+        }
+    }
+
+    &-boy{
+        right: 0;
+
+        &~.btn-genre{
+            right: 20%;
+        }
+    }
 }
 
 .section-season--img{

@@ -19,37 +19,43 @@
                 </div>
 
                 <div class="header_nav">
-                    <ul>
-                       <li class="header_nav--search"><input type="text" placeholder="Buscar" class="header_nav--size"></li>
-                       <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
-                       <img class='header_nav--log' src="img/icon_ventana.png" alt="log">
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">HOMBRE</a></li>
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">MUJER</a></li>
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">NIÑOS</a></li>
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">VIAJE</a></li>
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">CALZADO</a></li>
-                       <li class="header_nav--link"><a class="header_nav--link-enlace">SOBRE NOSOTROS</a></li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-2-of-3">
+                            <ul>
+                                <img class='header_nav--log' src="img/icon_ventana.png" alt="log">
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">HOMBRE</a></li>
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">MUJER</a></li>
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">NIÑOS</a></li>
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">VIAJE</a></li>
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">CALZADO</a></li>
+                                <li class="header_nav--link"><a class="header_nav--link-enlace">SOBRE NOSOTROS</a></li>
+                             </ul>
+                        </div>
+                        <div class="col-1-of-3">
+                            <span class="header_nav--search"><input type="text" placeholder="Buscar" class="header_nav--size"></span>
+                            <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
 
         <div class="main">
             <div class="main_nav">
-                    <p class="main_nav--icon-l"> < </p>
+                    <span class="main_nav--icon main_nav--icon-l"> < </span>
                     <h3 class="main_nav--title"> INFORMACION AQUI </h3>
-                    <p class="main_nav--icon-r"> > </p>
+                    <span class="main_nav--icon main_nav--icon-r"> > </span>
             </div>
         </div>
 
         <section class="section-genre">
-            <figure class="section-genre__img-girl">
-                <img src="../img/genre-girl.jpg">
-                <a class="btn--white--girl" class="#" >Mujer</a>
+            <figure class="section-genre__figure">
+                <img class="section-genre__figure-img section-genre__figure-girl" src="../img/genre-girl.jpg">
+                <a class="btn-genre" class="#" >Mujer</a>
             </figure>
-            <figure class="section-genre__img-boy">
-                <img src="../img/genre-boy.jpg">
-                <a class="btn--white--boy" class="#">Hombre</a>
+            <figure class="section-genre__figure">
+                <img class="section-genre__figure-img section-genre__figure-boy" src="../img/genre-boy.jpg">
+                <a class="btn-genre" class="#">Hombre</a>
             </figure>
         </section>
 

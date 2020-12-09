@@ -1,5 +1,9 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
 }
 
 .heading-secondary{
@@ -8,10 +12,12 @@ body {
     letter-spacing: 30px;
     transition: all .5s;
     color: $color-white;
+    transform: translateY(-3rem);
+    clip-path: text;
     
     &:hover{
     transform: scale(1.2);
-    letter-spacing: 50px;
+    letter-spacing: 40px;
     }
 }
 

@@ -13,3 +13,12 @@
     transition: all 0.5s;
     cursor: pointer;
 }
+
+.btn-genre{
+    background-color: $color-white;
+    border: 1px solid $color-black;
+    padding: 1.5vh 3vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
