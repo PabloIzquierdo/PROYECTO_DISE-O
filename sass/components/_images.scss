@@ -10,11 +10,6 @@
     transition: all .25s;
     border-radius: 3px;
     filter: grayscale(100%);
-
-    &:hover{
-        transform: translateY(-3rem);
-        filter: grayscale(0%);
-    }
 }
 
 

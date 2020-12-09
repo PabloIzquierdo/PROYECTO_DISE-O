@@ -2,13 +2,14 @@
     text-decoration: none;
     text-transform: uppercase;
     transform: translateY(-40px);
-    color: black;
+    color: $color-black;
     font-size: 1.5rem;
     position: relative;
     top:-20rem;
     padding: 5px 30px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: $color-white;
+    border: 1px solid $color-black;
     opacity: 0;
     transition: all 0.5s;
+    cursor: pointer;
 }

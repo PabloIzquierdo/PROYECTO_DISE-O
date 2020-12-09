@@ -2,6 +2,7 @@
 .section-genre {
     height:100vh;
     padding:0 0;
+    width: 100%;
 
     &__girl {
         position:absolute;
@@ -23,16 +24,9 @@
 }
 
 .section-season{
+    text-align: center;
     padding: 10rem 0;
-    background-color: black;
-
-    &:hover .heading-season{
-        opacity:1;
-    }
-
-    &:hover .btn-season{
-        opacity:1;
-    }
+    background-color: $color-black;
 }
 
 .section-commercial__store{

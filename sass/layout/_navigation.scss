@@ -1,9 +1,9 @@
 .main_nav{
-    color: white;
+    color: $color-white;
     height: 6vh;
     text-align:center;
-    background-color: black;
-    border: solid black 0.5vw;
+    background-color: $color-black;
+    border: solid $color-black 0.5vw;
 
     &--title {
         width: 20vw;
@@ -17,7 +17,7 @@
         margin-left: 0.5vw;
         margin-top: -1vw;
         float: left;
-        color: white;
+        color: $color-white;
         clip-path: text;
     }
     &--icon-r {
@@ -26,7 +26,7 @@
         width: 2vw;
         margin-top: -2.5vw;    
         float: right;
-        color: white;
+        color: $color-white;
         clip-path: text;
     }
 }

@@ -1,0 +1,14 @@
+.seasons{
+    width: calc(25vh-6rem); 
+    height: 50vw;
+    &:hover .heading-season{
+        opacity:1;
+    }
+    &:hover .btn-season{
+        opacity:1;
+    }
+    &:hover .section-season--img{
+        transform: translateY(-3rem);
+        filter: grayscale(0%);
+    }
+}

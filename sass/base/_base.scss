@@ -1,18 +1,16 @@
 * {
-    padding: 0vw;
-    margin: 0vw;
-    width:100%;
     box-sizing: border-box;
 }
 
-/*a {
-    color: black;
 
-    &:hover, &:focus {
-        color: grey;
-    } 
+html{
+    font-size: 62.5%;
+}
 
-    &:active {
-        color: white;
-    }
-}*/
+body{
+    width: 100vw;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 3rem;;
+}
+

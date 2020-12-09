@@ -1,9 +1,17 @@
 * {
-  padding: 0vw;
-  margin: 0vw;
   box-sizing: border-box; }
 
-<<<<<<< HEAD
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 100vw;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
 
 .heading-secondary {
   text-transform: uppercase;
@@ -11,7 +19,7 @@
   letter-spacing: 30px;
   transition: all .5s;
   color: #ffff; }
-  .heading-secondary :hover {
+  .heading-secondary:hover {
     transform: scale(1.2);
     letter-spacing: 50px; }
 
@@ -21,23 +29,24 @@
   font-size: 2rem;
   transform: translateY(-20rem);
   opacity: 0;
-  color: white;
-  background-color: black;
+  color: #ffff;
+  background-color: #000000;
   transition: all .5s; }
 
 .btn-season {
   text-decoration: none;
   text-transform: uppercase;
   transform: translateY(-40px);
-  color: black;
+  color: #000000;
   font-size: 1.5rem;
   position: relative;
   top: -20rem;
   padding: 5px 30px;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #ffff;
+  border: 1px solid #000000;
   opacity: 0;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  cursor: pointer; }
 
 .img-genre {
   height: 100%;
@@ -50,14 +59,22 @@
   transition: all .25s;
   border-radius: 3px;
   filter: grayscale(100%); }
-  .section-season--img:hover {
-    transform: translateY(-3rem);
-    filter: grayscale(0%); }
 
 .section-commercial__store--img {
   width: 100vh;
   height: 50%;
   transform: translateX(3rem); }
+
+.seasons {
+  width: calc(25vh-6rem);
+  height: 50vw; }
+  .seasons:hover .heading-season {
+    opacity: 1; }
+  .seasons:hover .btn-season {
+    opacity: 1; }
+  .seasons:hover .section-season--img {
+    transform: translateY(-3rem);
+    filter: grayscale(0%); }
 
 .row {
   max-width: 95%;
@@ -82,21 +99,9 @@
   .row .col-2-of-3 {
     width: calc(2 * ((100% - (3 - 1) * 6rem) / 3) + (2 - 1) * 6rem); }
 
-=======
-a {
-  color: black; }
-  a:hover, a:focus {
-    color: grey; }
-  a:active {
-    color: white; }
-
-body {
-  font-family: Arial, Helvetica, sans-serif; }
-
->>>>>>> 4d17e722a76a786831104e919f289c69c877c815
 .header_n {
   padding: 1vw;
-  border: solid black 0.5vw; }
+  border: solid #000000 0.5vw; }
 
 .header_ul {
   width: 100%; }
@@ -109,6 +114,11 @@ body {
     margin-right: 0.7vw;
     list-style: none;
     display: inline-block; }
+    .header_log--link a {
+      color: #000000;
+      text-decoration: none; }
+      .header_log--link a:hover {
+        color: #808080; }
     .header_log--link-ES {
       width: 1.4vw;
       height: 0.8vw;
@@ -151,11 +161,11 @@ body {
     font-weight: bold;
     margin-right: 1vw; }
     .header_nav--link-enlace {
-      color: black; }
+      color: #000000; }
       .header_nav--link-enlace-enlace:hover, .header_nav--link-enlace:focus {
-        color: grey; }
+        color: #808080; }
       .header_nav--link-enlace:active {
-        color: white; }
+        color: #ffff; }
   .header_nav--search {
     float: right;
     height: 1.5vw; }
@@ -179,35 +189,36 @@ body {
     margin-left: -6vw; }
 
 .main_nav {
-  color: white;
-  height: 3vw;
-  background-color: black;
-  border: solid black 0.5vw; }
+  color: #ffff;
+  height: 6vh;
+  text-align: center;
+  background-color: #000000;
+  border: solid #000000 0.5vw; }
   .main_nav--title {
     width: 20vw;
     margin-left: 40vw; }
   .main_nav--icon-l {
     font-size: 3vw;
     width: 2vw;
-    height: 3.5vw;
+    height: 3.5vh;
     margin-left: 0.5vw;
     margin-top: -1vw;
     float: left;
-    color: white;
+    color: #ffff;
     clip-path: text; }
   .main_nav--icon-r {
     font-size: 3vw;
-    height: 3.5vw;
+    height: 3.5vh;
     width: 2vw;
     margin-top: -2.5vw;
     float: right;
-    color: white;
+    color: #ffff;
     clip-path: text; }
-<<<<<<< HEAD
 
 .section-genre {
   height: 100vh;
-  padding: 0 0; }
+  padding: 0 0;
+  width: 100%; }
   .section-genre__girl {
     position: absolute; }
   .section-genre__boy {
@@ -219,14 +230,9 @@ body {
     filter: none; }
 
 .section-season {
+  text-align: center;
   padding: 10rem 0;
-  background-color: black; }
-  .section-season:hover .heading-season {
-    opacity: 1; }
-  .section-season:hover .btn-season {
-    opacity: 1; }
+  background-color: #000000; }
 
 .section-commercial__store {
   max-width: 100%; }
-=======
->>>>>>> 4d17e722a76a786831104e919f289c69c877c815

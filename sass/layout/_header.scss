@@ -1,7 +1,7 @@
 .header {
     &_n {
         padding: 1vw;
-        border: solid black 0.5vw;
+        border: solid $color-black 0.5vw;
     }
 
     &_ul {
@@ -16,7 +16,15 @@
             font-size: 0.9vw;
             margin-right: 0.7vw;
             list-style: none;
-            display: inline-block;            
+            display: inline-block;   
+            
+            & a{
+                color: $color-black;
+                text-decoration: none;
+                &:hover{
+                    color: $color-grey;
+                }
+            }
     
             &-ES {
                 width: 1.4vw;
@@ -73,14 +81,14 @@
             margin-right: 1vw;
 
             &-enlace {
-                color: black;
+                color: $color-black;
 
                 &-enlace:hover, &:focus {
-                    color: grey;
+                    color: $color-grey;
                 } 
 
                 &:active {
-                    color: white;
+                    color: $color-white;
                 }
             }
         }
