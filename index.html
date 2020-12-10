@@ -21,28 +21,44 @@
 
                 <div class="header_nav">
                     <div class="header_nav--row">
-                        <ul>
+                        <ul class="header_nav--row-change">
                             <img class='header_nav--log' src="img/icon_ventana.png" alt="log">
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">HOMBRE</a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">MUJER</a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">NIÑOS</a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">VIAJE</a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">CALZADO</a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">SOBRE NOSOTROS</a></li>
-                            <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
+                            <li class="header_nav--link"><a class="header_nav--link-enlace">
+                                <span>HOMBRE</span>
+                                <span><img src="img/icon_m.png" class="icon_m" alt="man" aria-hidden="true"></span>
+                            </a></li>
+                            <li class="header_nav--link"><a class="header_nav--link-enlace">
+                                <span>MUJER</span>
+                                <span><img src="img/icon_w.png" class="icon_w" alt="women" aria-hidden="true"></span>
+                            </a></li>
+                            <li class="header_nav--link"><a class="header_nav--link-enlace">
+                                <span>NIÑOS</span>
+                                <span><img src="img/icon_child.png" class="icon_child" alt="child" aria-hidden="true"></span>
+                            </a></li>
+                            <li class="header_nav--link"><a class="header_nav--link-enlace">
+                                <span>VIAJE</span> 
+                                <span><img src="img/icon_v.jpg" class="icon_v" alt="travel" aria-hidden="true"></span>
+                            </a></li>
+                            <li class="header_nav--link"><a class="header_nav--link-enlace">
+                                <span>CALZADO</span>
+                                <span><img src="img/icon_zm.png" class="icon_z" alt="shoes_woman" aria-hidden="true"></span>
+                            </a></li>
+                            <li class="header_nav--link header_nav--link-aboutUs"><a class="header_nav--link-enlace">
+                                <span>SOBRE NOSOTROS</span>
+                                <span><img src="img/icon_au.png" class="icon_au" alt="about us" aria-hidden="true"></span>
+                            </a></li>
                             <span class="header_nav--search"><input type="text" placeholder="Buscar" class="header_nav--size"></span>
+                            <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <div class="main">
-            <div class="main_nav">
-                    <span class="main_nav--icon main_nav--icon-l"> < </span>
-                    <h3 class="main_nav--title"> INFORMACION AQUI </h3>
-                    <span class="main_nav--icon main_nav--icon-r"> > </span>
-            </div>
+        <div class="main_nav">
+            <span class="main_nav--icon main_nav--icon-l"> < </span>
+            <h3 class="main_nav--title"> INFORMACION AQUI </h3>
+            <span class="main_nav--icon main_nav--icon-r"> > </span>
         </div>
 
         <section class="section-genre">
@@ -69,7 +85,7 @@
                 <div class="col-1-of-4">
                     <div class="seasons season-spring">
                         <img class="section-season--img" src="../img/primavera.jpg" alt="Primavera">
-                        <h3 class="heading-season">Primavera</h3>
+                        <h3 class="heading-season heading-season-2">Primavera</h3>
                         <a class="btn-season" id="#">Comprar</a>
                     </div>
                 </div>
@@ -183,16 +199,17 @@
             <div class="content_1-3">
                 <div class="terciary">
                     <div class="terciary_row-1-2">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F1310%2F1310403.png&f=1&nofb=1" class="icon">
+                        <img src="img/icon_header.png" class="icon_footer">
                     </div>
                     <div class="terciary_row-1-2">
-                        <p>THE NORTH FACE UNA COMPAÑIA DE VF</p>
-                        <p>CONDICIONES DE USO I POLITICA DE PRIVACIDAD</p>
+                        <p>COOPER REVOLUTION.</p>
+                        <p>CONDICIONES DE USO & POLITICA DE PRIVACIDAD</p>
                     </div>
                 </div>
             </div>
         </footer>
         
+        <script src="script.js"></script>
     </body>
 
 </html>

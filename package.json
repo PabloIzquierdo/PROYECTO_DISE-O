@@ -2,7 +2,7 @@
   "name": "pagina_beta",
   "version": "1.0.0",
   "description": "Página web de venta de ropa online.",
-  "main": "index.js",
+  "main": "js/script.js",
   "scripts": {
     "compile:sass": "node-sass --watch sass/main.scss css/style.css"
   },

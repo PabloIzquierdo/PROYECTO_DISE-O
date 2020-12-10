@@ -3,11 +3,13 @@
     text-align:center;
     background-color: $color-black;
     border: solid $color-black 0.5vw;
-    padding: 1rem 0.5rem;
     position: relative;
     cursor: pointer;
+    height: 3vw;
+    width: 100%;
 
     &--title {
+        font-size: 1vw;
         width: 20vw;
         margin-left: 40vw;
     }
@@ -20,12 +22,12 @@
         clip-path: text;
 
         &-l {
-            top: -1rem;
+            top: -1.5vw;
             left: 5;
             
         }
         &-r {
-            margin-top: -4rem;   
+            margin-top: -3.2vw;   
             right: 5;
         }
     }

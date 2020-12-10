@@ -23,11 +23,15 @@ body {
 
 .heading-season{
     text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 2rem;
-    transform: translateY(-20rem);
+    letter-spacing: 1vw;
+    font-size: 1.2vw;
+    transform: translateY(-15vw);
     opacity: 0;
     color: $color-white;
     background-color: $color-black;
     transition: all .5s;
+    
+    &-2 {
+        font-size: 1.2vw;
+    }
 }
