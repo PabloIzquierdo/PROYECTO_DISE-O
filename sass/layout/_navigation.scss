@@ -12,6 +12,11 @@
         font-size: 1vw;
         width: 20vw;
         margin-left: 40vw;
+
+        &:hover {
+            transform: scale(1.9);
+            transition-duration: 3s;
+        }
     }
 
     &--icon{
