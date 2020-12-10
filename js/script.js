@@ -2,6 +2,7 @@
 
 let main_item = document.getElementsByClassName("item");
 let sub_item = document.getElementsByClassName("sub_item");
+let img_social = document.getElementById("secundary_img");
 
 function getAnimacionItem(){
     for(let i=0; i<main_item.length; i++){
@@ -43,3 +44,4 @@ function getAnimacionMouseOver(){
 getAnimacionItem();
 getAnimacionOnMouse();
 getAnimacionMouseOver();
+getBlureImagen();

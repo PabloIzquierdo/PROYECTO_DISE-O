@@ -253,10 +253,6 @@ footer {
   border: solid pink 1px;
   height: 100px; }
 
-.content_1-3 {
-  border: solid pink 3px;
-  width: 100%; }
-
 .primary_col-1-3 {
   display: inline-block;
   text-align: center;
@@ -269,11 +265,41 @@ footer {
   padding: 5%;
   color: black; }
 
+#content_2-3 {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
 #secundary_img {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: blur(4px); }
+
+.secundary_content {
+  display: inline-block;
+  padding: 5%;
+  margin-top: 15em;
+  background-color: white;
+  border-radius: 5px; }
 
 .secundary {
-  width: 100%; }
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+input, button {
+  width: 300px;
+  height: 40px;
+  display: block;
+  margin-top: 1em; }
+
+.secundary_form {
+  display: inline-block; }
+
+.social {
+  width: 2em; }
 
 .terciary {
   text-align: left;
@@ -283,6 +309,9 @@ footer {
 .terciary_row-1-2 {
   padding: 1em;
   text-align: center; }
+
+.secundary_map {
+  margin-top: 2.5em; }
 
 .icon {
   width: 40px;
@@ -297,6 +326,9 @@ footer {
 
 .sub_item {
   display: none; }
+
+#content_3-3 {
+  position: relative; }
 
 .row {
   width: 100%;
