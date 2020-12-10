@@ -101,12 +101,8 @@ body {
   opacity: 0;
   transition: all 0.5s; }
   .btn-genre:hover {
-<<<<<<< HEAD
-    transform: scale(1.3) translateY(20%); }
-=======
     transform: scale(1.3) translateY(20%) skewY(-12deg);
     text-decoration: underline; }
->>>>>>> 2a1d450ce723780a0829fe9aeacc962f0d489959
   .btn-genre--woman {
     color: #000000; }
   .btn-genre--man {
@@ -484,14 +480,15 @@ input, button {
   position: relative;
   cursor: pointer;
   height: 3vw;
-  width: 100%; }
+  width: 100%;
+  padding-top: 0.5vh; }
   .main_nav--title {
     font-size: 1vw;
     width: 20vw;
-    margin-left: 40vw; }
+    margin-left: 40vw;
+    transition: transform 0.5s; }
     .main_nav--title:hover {
-      transform: scale(1.9);
-      transition-duration: 3s; }
+      transform: scale(1.9); }
   .main_nav--icon {
     font-size: 3vw;
     width: 2vw;
