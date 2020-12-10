@@ -87,18 +87,26 @@ body {
   transform: translateY(-7px); }
 
 .btn-genre {
-  color: #ffff;
-  padding: 1.5vw;
+  padding: 1vw;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2vw;
   border-radius: 50%;
-  transition: width 5s, height 5s, transform 5s;
-  margin-top: -35vw; }
+  text-align: center; }
   .btn-genre:hover {
-    transform: scale(1.9);
-    text-decoration: underline; }
+    transform: scale(1.3) translateY(20%);
+    transition-duration: 1s; }
+  .btn-genre--woman {
+    color: #000000; }
+  .btn-genre--woman:hover {
+    text-decoration: underline #4d4d4d;
+    border: 0.2vw solid #ffff; }
+  .btn-genre--man {
+    color: #ffff; }
+  .btn-genre--man:hover {
+    text-decoration: underline #4d4d4d;
+    border: 0.2vw solid #000000; }
 
 .icon_ES {
   width: 1.4vw;
@@ -451,6 +459,9 @@ footer {
     font-size: 1vw;
     width: 20vw;
     margin-left: 40vw; }
+    .main_nav--title:hover {
+      transform: scale(1.9);
+      transition-duration: 3s; }
   .main_nav--icon {
     font-size: 3vw;
     width: 2vw;
