@@ -48,12 +48,13 @@ body {
     font-size: 1.2vw; }
 
 .bg-video {
-  margin: 15vh 3vw;
+  margin: 19vh 3vw;
   position: absolute;
-  width: 25%;
+  width: 30%;
   height: cover;
   background-image: linear-gradient(90deg, #aa0202, red); }
   .bg-video__content {
+    border-radius: 3px;
     opacity: .4;
     height: 100%;
     width: 100%; }
@@ -139,6 +140,7 @@ body {
     filter: grayscale(100%);
     width: 50%;
     height: 100vh;
+    border-radius: 3px;
     position: absolute;
     transition: filter 0.5s; }
   .section-genre__figure-girl {
@@ -162,10 +164,17 @@ body {
   height: 50%;
   transform: translateX(3rem); }
 
+.section-sale__img {
+  height: 94%;
+  width: 100%;
+  border-radius: 3px;
+  background-image: linear-gradient(90deg, #aa0202, red);
+  opacity: .4; }
+
 .sale {
-  margin: 15vh 40vw;
+  margin: 19vh 35vw;
   position: absolute;
-  width: 25%;
+  width: 29%;
   background-image: linear-gradient(90deg, #aa0202, red), url("img/imagen-fondo-1.jpg"); }
 
 .seasons {
@@ -434,11 +443,12 @@ footer {
   height: 100vh;
   padding: 0 0;
   width: 100vw;
+  background-color: #000000;
   text-align: center; }
 
 .section-season {
   text-align: center;
-  padding: 10rem 0;
+  padding: 0 0;
   background-color: #000000; }
 
 .section-commercial__store {
@@ -446,5 +456,5 @@ footer {
 
 .section-sale {
   width: 100%;
-  height: 30%;
+  height: 70%;
   background-color: #000000; }
