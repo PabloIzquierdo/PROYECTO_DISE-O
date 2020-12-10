@@ -17,7 +17,7 @@ li {
   list-style-type: none; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 400;
   line-height: 1.7;
   padding: 0;
@@ -86,12 +86,52 @@ body {
   transform: translateY(-7px); }
 
 .btn-genre {
-  background-color: #ffff;
-  border: 1px solid #000000;
-  padding: 1.5vh 3vw;
+  color: #ffff;
+  padding: 1.5vw;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 2vw;
+  border-radius: 50%;
+  transition: width 5s, height 5s, transform 5s;
+  margin-top: -35vw; }
+  .btn-genre:hover {
+    transform: scale(1.9);
+    text-decoration: underline; }
+
+.icon_ES {
+  width: 1.4vw;
+  height: 0.8vw;
+  margin-right: 0.5vw; }
+
+.icon_ubica {
+  width: 0.9vw;
+  height: 0.9vw;
+  margin-right: 0.2vw; }
+
+.icon_hlp {
+  width: 0.7vw;
+  height: 1.02vw;
+  margin-right: 0.1vw; }
+
+.icon_email {
+  width: 1.1vw;
+  height: 0.94vw;
+  margin-right: 0.1vw; }
+
+.icon_info {
+  width: 1vw;
+  height: 0.9vw; }
+
+.icon_cuenta {
+  width: 0.9vw;
+  height: 0.9vw;
+  margin-right: 0.2vw; }
+
+.icon_cesta {
+  width: 1.2vw;
+  height: 0.9vw;
+  margin-right: 0.2vw; }
 
 .icon_m {
   width: 2.5vw;
@@ -284,7 +324,7 @@ footer {
     margin-bottom: 2vw; }
     .header_log--link {
       float: right;
-      font-size: 0.9vw;
+      font-size: 1vw;
       margin-right: 0.7vw;
       list-style: none;
       display: inline-block; }
@@ -292,38 +332,12 @@ footer {
         color: #000000;
         text-decoration: none; }
         .header_log--link a:hover {
-          color: #808080; }
+          color: #808080;
+          text-decoration: underline; }
         .header_log--link a:active {
           color: #ff0000; }
-      .header_log--link-ES {
-        width: 1.4vw;
-        height: 0.8vw;
-        margin-right: 0.5vw; }
-      .header_log--link-ubica {
-        width: 0.9vw;
-        height: 0.9vw;
-        margin-right: 0.2vw; }
-      .header_log--link-hlp {
-        width: 0.7vw;
-        height: 1.02vw;
-        margin-right: 0.1vw; }
-      .header_log--link-email {
-        width: 1.1vw;
-        height: 0.94vw;
-        margin-right: 0.1vw; }
-      .header_log--link-info {
-        width: 1vw;
-        height: 0.9vw; }
-      .header_log--link-cuenta {
-        width: 0.9vw;
-        height: 0.9vw;
-        margin-right: 0.2vw; }
-      .header_log--link-cesta {
-        width: 1.2vw;
-        height: 0.9vw;
-        margin-right: 0.2vw; }
   .header_nav {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     width: 100%;
     height: 4vw; }
     .header_nav--row {
@@ -370,13 +384,13 @@ footer {
     .header_nav--link, .header_nav--search, .header_nav--link {
       display: inline-block; }
     .header_nav--link {
-      margin-left: 2vw;
+      margin-left: 3vw;
       letter-spacing: 0.5vw;
       font-weight: bold;
       margin-right: 1vw; }
       .header_nav--link-aboutUs {
         text-align: center;
-        margin-right: 6vw; }
+        margin-right: 1vw; }
       .header_nav--link-enlace {
         color: #000000;
         cursor: pointer; }
@@ -402,7 +416,16 @@ footer {
       width: 5vw;
       height: 5vw;
       float: left;
-      margin-top: -3vw; }
+      margin-top: -3vw;
+      margin-left: 2vw;
+      -webkit-transition: all 1s ease-out;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease; }
+      .header_nav--log:hover {
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg); }
 
 .main_nav {
   color: #ffff;
