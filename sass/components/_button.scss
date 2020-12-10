@@ -1,17 +1,39 @@
 .btn-season{
-    text-decoration: none;
-    text-transform: uppercase;
-    transform: translateY(-40px);
-    color: $color-black;
-    font-size: 1vw;
-    position: relative;
-    top:-2vw;
-    padding: 5px 30px;
-    background-color: $color-white;
-    border: 1px solid $color-black;
-    opacity: 0;
-    transition: all 0.5s;
-    cursor: pointer;
+
+    &,
+    &:link,
+    &:visited {
+        color: $color-black;
+        background-color: $color-white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0.8rem 4rem;
+        display: inline-block;
+        position: relative;
+        border: 1px solid $color-black;
+        cursor: pointer;
+        opacity: 0;
+        transition: transform 0.2s;
+    }
+
+    &:hover{
+
+        background-color: $color-black;
+        color: $color-white;
+        border-color: $color-white;
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+
+    }
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        transform: translateY(-7px);
+    }
+
 }
 
 .btn-genre{
