@@ -38,10 +38,18 @@
 }
 
 .btn-genre{
-    background-color: $color-white;
-    border: 1px solid $color-black;
-    padding: 1.5vh 3vw;
+    color: $color-white;
+    padding: 1.5vw;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 2vw;
+    border-radius: 50%;
+    transition: width 5s, height 5s, transform 5s;
+    margin-top: -35vw;
+
+    &:hover {
+        transform: scale(1.9);
+        text-decoration: underline;
+    }
 }
