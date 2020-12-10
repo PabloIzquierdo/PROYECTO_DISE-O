@@ -1,0 +1,12 @@
+.bg-video {
+    margin: 15vh 3vw;
+    position: absolute;
+    width: 25%;
+    height: cover;
+    background-image: linear-gradient(90deg, rgb(170, 2, 2), red );
+&__content {
+    opacity: .4;
+    height: 100%;
+    width: 100%;
+}
+}
