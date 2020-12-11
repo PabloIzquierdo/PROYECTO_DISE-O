@@ -47,12 +47,26 @@ body {
   .heading-season-2 {
     font-size: 1.2vw; }
 
-.bg-video {
-  background-image: linear-gradient(90deg, #aa0202, red); }
-  .bg-video__content {
-    border-radius: 3px;
-    opacity: .4;
-    width: 100%; }
+.btn-genre {
+  padding: 1vw;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3vw;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffff;
+  z-index: 1;
+  position: absolute;
+  top: 50vh;
+  opacity: 0;
+  transition: all 0.5s; }
+  .btn-genre:hover {
+    transform: scaleY(1.5) scaleX(1); }
+  .btn-genre--woman {
+    color: #000000; }
+  .btn-genre--man {
+    color: #ffff; }
 
 .btn-season, .btn-season:link, .btn-season:visited {
   color: #000000;
@@ -80,28 +94,6 @@ body {
   outline: none;
   transform: translateY(-1px);
   transform: translateY(-7px); }
-
-.btn-genre {
-  padding: 1vw;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 3vw;
-  border-radius: 50%;
-  text-align: center;
-  color: #ffff;
-  z-index: 1;
-  position: absolute;
-  top: 50vh;
-  opacity: 0;
-  transition: all 0.5s; }
-  .btn-genre:hover {
-    transform: scale(1.3) translateY(20%) skewY(-12deg);
-    text-decoration: underline; }
-  .btn-genre--woman {
-    color: #000000; }
-  .btn-genre--man {
-    color: #ffff; }
 
 .icon_ES {
   width: 1.4vw;
@@ -203,22 +195,13 @@ body {
 
 .section-sale__img {
   width: 100%;
-  border-radius: 3px;
-  background-image: linear-gradient(90deg, #aa0202, red);
-  opacity: .4;
-  position: absolute;
-  height: 32vh; }
-  .section-sale__img-1 {
-    height: 10px;
-    float: right; }
-  .section-sale__img-2 {
-    left: 50%; }
+  border-radius: 3px; }
 
 .sale {
   position: absolute;
   width: 25%;
   height: 18%;
-  background-image: linear-gradient(90deg, rgba(170, 2, 2, 0.4), red); }
+  background-image: linear-gradient(90deg, #aa0202, red); }
 
 .seasons {
   width: calc(25vh-6rem);
@@ -478,7 +461,7 @@ input, button {
   border: solid #000000 0.5vw;
   position: relative;
   cursor: pointer;
-  height: 3vw;
+  height: 4vw;
   width: 100%;
   padding-top: 0.5vh; }
   .main_nav--title {
@@ -487,7 +470,7 @@ input, button {
     margin-left: 40vw;
     transition: transform 0.5s; }
     .main_nav--title:hover {
-      transform: scale(1.9); }
+      transform: scale(1.5); }
   .main_nav--icon {
     font-size: 3vw;
     width: 2vw;
@@ -519,5 +502,4 @@ input, button {
 .section-sale {
   width: 100%;
   height: 40%;
-  padding: 20% 5%;
   background-color: #000000; }
