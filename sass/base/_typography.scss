@@ -14,9 +14,10 @@ body {
     color: $color-white;
     transform: translateY(-3rem);
     clip-path: text;
+    padding-top: 7vh;
     
     &:hover{
-    transform: scale(1.2);
+    transform: scale(1);
     letter-spacing: 40px;
     }
 }
