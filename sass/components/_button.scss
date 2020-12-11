@@ -64,3 +64,15 @@
     }
 
 }
+
+.btn-sale{
+    padding: 1vh 2vw;
+    width: 10vw;
+    text-decoration: none;
+    color: $color-white;
+    border: 1px solid $color-white;
+
+    &:hover{
+        transform: scaleX(1.4) scaleY(1.6);
+    }
+}

@@ -96,6 +96,15 @@ body {
   transform: translateY(-1px);
   transform: translateY(-7px); }
 
+.btn-sale {
+  padding: 1vh 2vw;
+  width: 10vw;
+  text-decoration: none;
+  color: #ffff;
+  border: 1px solid #ffff; }
+  .btn-sale:hover {
+    transform: scaleX(1.4) scaleY(1.6); }
+
 .icon_ES {
   width: 1.4vw;
   height: 0.8vw;
@@ -212,10 +221,10 @@ body {
   .sale__text {
     position: relative;
     color: #ffff;
-    padding: 20vh 2vh; }
+    padding: 20vh 2vh;
+    text-align: center; }
     .sale__text span {
-      display: block;
-      text-align: center; }
+      display: block; }
     .sale__text-1 {
       font-size: 1.5vw;
       text-transform: uppercase;
