@@ -518,7 +518,26 @@ input, button {
   cursor: pointer;
   height: 4vw;
   width: 100%;
-  padding-top: 0.5vh; }
+  padding-top: 0.5vh;
+  /*
+    &--icon{
+        font-size: 3vw;
+        width: 2vw;
+        height: 3.5vh;
+        position: absolute;
+        clip-path: text;
+
+        &-l {
+            top: -1.5vw;
+            left: 5;
+            
+        }
+        &-r {
+            margin-top: -3.2vw;   
+            right: 5;
+        }
+    }
+    */ }
   .main_nav--title {
     font-size: 1vw;
     width: 20vw;
@@ -526,18 +545,6 @@ input, button {
     transition: transform 0.5s; }
     .main_nav--title:hover {
       transform: scale(1.5); }
-  .main_nav--icon {
-    font-size: 3vw;
-    width: 2vw;
-    height: 3.5vh;
-    position: absolute;
-    clip-path: text; }
-    .main_nav--icon-l {
-      top: -1.5vw;
-      left: 5; }
-    .main_nav--icon-r {
-      margin-top: -3.2vw;
-      right: 5; }
 
 .section-genre {
   height: 100vh;
