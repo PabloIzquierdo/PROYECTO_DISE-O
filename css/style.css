@@ -232,7 +232,7 @@ body {
   background-image: linear-gradient(90deg, #503100, #b36e00); }
 
 footer {
-  border: solid black 0.5vw;
+  border: solid #000000 0.5vw;
   font-size: 2em; }
 
 .content {
@@ -249,7 +249,7 @@ footer {
 
 .primary_link {
   padding: 5%;
-  color: black; }
+  color: #000000; }
 
 #content_2-3 {
   width: 100%;
@@ -265,53 +265,55 @@ footer {
 .secundary_content {
   display: inline-block;
   padding: 5%;
-  margin-top: 15em;
-  background-color: white;
+  margin: 15% 20%;
+  background-color: #ffff;
   border-radius: 5px; }
 
 .secundary {
-  padding: 2em;
+  padding: 2rem;
   width: 100%;
   height: 100%;
   position: relative; }
 
 input, button {
-  width: 300px;
-  height: 40px;
+  width: 30rem;
+  height: 4rem;
   display: block;
-  margin-top: 1em; }
+  margin-top: 1rem; }
 
 .secundary_form {
   display: inline-block; }
 
 .social {
-  width: 2em; }
+  width: 4rem; }
 
 .terciary {
   text-align: left;
-  background-color: black;
-  border: solid white 4px; }
+  background-color: #000000;
+  border: solid #ffff 4px; }
 
 .terciary_row-1-2 {
-  padding: 1em;
+  padding: 1rem;
   text-align: center; }
 
 .secundary_map {
-  margin-top: 2.5em; }
+  margin-top: 2.5rem; }
 
 .icon {
-  width: 40px;
-  height: 40px; }
+  width: 4rem;
+  height: 4rem; }
 
 .arrow {
   width: 20px;
   height: 15px; }
 
 .item:hover {
-  border-bottom: solid black 1px; }
+  border-bottom: solid #000000 1px;
+  cursor: pointer; }
 
 .sub_item {
-  display: none; }
+  display: none;
+  cursor: pointer; }
 
 #content_3-3 {
   position: relative; }
