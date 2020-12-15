@@ -43,6 +43,7 @@
         opacity: 0;
         transition: transform 0.2s;
         top: -10%;
+        font-weight: bold;
     }
 
     &:hover{
@@ -71,6 +72,8 @@
     text-decoration: none;
     color: $color-white;
     border: 1px solid $color-white;
+    text-transform: uppercase;
+    font-weight: bold;
 
     &:hover{
         transform: scaleX(1.4) scaleY(1.6);

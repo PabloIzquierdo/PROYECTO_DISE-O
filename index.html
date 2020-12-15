@@ -6,61 +6,134 @@
     
     <body>
         <header class="header">
-            <nav class="header_n">
-                <div class="header_log">
-                    <ul class="header_ul">
-                        <li class="header_log--link"><a href=""></a><img class="icon_ES" src="img/logo-españa.jpg" alt="es">ES</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_ubica" src="img/logo-ubica.jpg" alt="ubica"> Encontrar una tienda</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_hlp" src="img/logo-hlp.jpg" alt="help"> Ayuda</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_email" src="img/logo-email.jpg" alt="email"> Newsletter</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_info" src="img/logo-info.jpg" alt="info"> Seguimiento del pedido</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_cuenta" src="img/logo-cuenta.jpg" alt="user"> Mi Cuenta</a></li>
-                        <li class="header_log--link"><a href=""><img class="icon_cesta" src="img/logo-cesta.jpg" alt="cesta"> Cesta</a></li>
-                    </ul>
-                </div>
-
-                <div class="header_nav">
-                    <div class="header_nav--row">
-                        <ul class="header_nav--row-change">
-                            <img class='header_nav--log' src="img/icon_ventana.png" alt="log">
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">
-                                <span>HOMBRE</span>
-                                <span><img src="img/icon_m.png" class="icon_m" alt="man" aria-hidden="true"></span>
-                            </a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">
-                                <span>MUJER</span>
-                                <span><img src="img/icon_w.png" class="icon_w" alt="women" aria-hidden="true"></span>
-                            </a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">
-                                <span>NIÑOS</span>
-                                <span><img src="img/icon_child.png" class="icon_child" alt="child" aria-hidden="true"></span>
-                            </a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">
-                                <span>VIAJE</span> 
-                                <span><img src="img/icon_v.jpg" class="icon_v" alt="travel" aria-hidden="true"></span>
-                            </a></li>
-                            <li class="header_nav--link"><a class="header_nav--link-enlace">
-                                <span>CALZADO</span>
-                                <span><img src="img/icon_zm.png" class="icon_z" alt="shoes_woman" aria-hidden="true"></span>
-                            </a></li>
-                            <li class="header_nav--link header_nav--link-aboutUs"><a class="header_nav--link-enlace">
-                                <span>SOBRE NOSOTROS</span>
-                                <span><img src="img/icon_au.png" class="icon_au" alt="about us" aria-hidden="true"></span>
-                            </a></li>
-                            <span class="header_nav--search"><input type="text" placeholder="Buscar" class="header_nav--size"></span>
-                            <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <div class="header_log">
+                <ul class="header_ul">
+                    <li class="header_log--link"><img class='header--logo' src="img/icon_ventana.png" alt="log"></li>
+                    <li class="header_log--link"><a href=""></a><img class="icon_ES" src="img/logo-españa.jpg" alt="es">ES</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_hlp" src="img/logo-hlp.jpg" alt="help"> Ayuda</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_ubica" src="img/logo-ubica.jpg" alt="ubica"> Encontrar una tienda</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_info" src="img/logo-info.jpg" alt="info"> Seguimiento del pedido</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_email" src="img/logo-email.jpg" alt="email"> Newsletter</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_cuenta" src="img/logo-cuenta.jpg" alt="user"> Mi Cuenta</a></li>
+                    <li class="header_log--link"><a href=""><img class="icon_cesta" src="img/logo-cesta.jpg" alt="cesta"> Cesta</a></li>
+                    <li class="header_log--link ">
+                        <div class="header_log--link-display">
+                            <img class="icon_loop" src="img/loop.jpg" alt="loop">
+                        <a href="">
+                            Buscar
+                        </a>
+                        <input type="text" placeholder="Buscar" class="icon_loop-textbox">
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
         </header>
+        <div class="navigation">
 
-        <div class="main_nav">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">
+                &nbsp;
+            </div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link">
+                            <span class="navigation__text">HOMBRE</span>
+                            <span class="navigation__text">
+                                <img src="img/icon_m.png" class="icon_m" alt="man" aria-hidden="true">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link">
+                            <span class="navigation__text">MUJER</span>
+                            <span class="navigation__text">
+                                <img src="img/icon_w.png" class="icon_w" alt="women" aria-hidden="true">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link">
+                            <span class="navigation__text">NIÑOS</span>
+                            <span class="navigation__text">
+                                <img src="img/icon_child.png" class="icon_child" alt="child" aria-hidden="true">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link">
+                            <span class="navigation__text">VIAJE</span> 
+                            <span class="navigation__text">
+                                <img src="img/icon_v.jpg" class="icon_v" alt="travel" aria-hidden="true">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link">
+                        <span class="navigation__text">CALZADO</span>
+                        <span class="navigation__text">
+                            <img src="img/icon_zm.png" class="icon_z" alt="shoes_woman" aria-hidden="true">
+                        </span>
+                    </a></li>
+                    <li class="navigation__item">
+                        <a class="navigation__link">
+                            <span class="navigation__text">SOBRE NOSOTROS</span>
+                            <span class="navigation__text">
+                                <img src="img/icon_au.png" class="icon_au" alt="about us" aria-hidden="true">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--
+            <nav class="header_nav">
+            <div class="header_nav--row">
+                <ul class="header_nav--row-change">
+                    <img class='header_nav--log' src="img/icon_ventana.png" alt="log">
+                    <li class="header_nav--link"><a class="header_nav--link-enlace">
+                        <span>HOMBRE</span>
+                        <span><img src="img/icon_m.png" class="icon_m" alt="man" aria-hidden="true"></span>
+                    </a></li>
+                    <li class="header_nav--link"><a class="header_nav--link-enlace">
+                        <span>MUJER</span>
+                        <span><img src="img/icon_w.png" class="icon_w" alt="women" aria-hidden="true"></span>
+                    </a></li>
+                    <li class="header_nav--link"><a class="header_nav--link-enlace">
+                        <span>NIÑOS</span>
+                        <span><img src="img/icon_child.png" class="icon_child" alt="child" aria-hidden="true"></span>
+                    </a></li>
+                    <li class="header_nav--link"><a class="header_nav--link-enlace">
+                        <span>VIAJE</span> 
+                        <span><img src="img/icon_v.jpg" class="icon_v" alt="travel" aria-hidden="true"></span>
+                    </a></li>
+                    <li class="header_nav--link"><a class="header_nav--link-enlace">
+                        <span>CALZADO</span>
+                        <span><img src="img/icon_zm.png" class="icon_z" alt="shoes_woman" aria-hidden="true"></span>
+                    </a></li>
+                    <li class="header_nav--link header_nav--link-aboutUs"><a class="header_nav--link-enlace">
+                        <span>SOBRE NOSOTROS</span>
+                        <span><img src="img/icon_au.png" class="icon_au" alt="about us" aria-hidden="true"></span>
+                    </a></li>
+                    <span class="header_nav--search"><input type="text" placeholder="Buscar" class="header_nav--size"></span>
+                    <img class="header_nav--loop" src="img/loop.jpg" alt="loop">
+                </ul>
+            </div>
+        </nav>
+        -->
+        
+
+        <div class="information">
             <!-- 
-                <span class="main_nav--icon main_nav--icon-l"> < </span>
-                <span class="main_nav--icon main_nav--icon-r"> > </span>
+                <span class="information--icon information--icon-l"> < </span>
+                <span class="information--icon information--icon-r"> > </span>
             -->
-            <h3 class="main_nav--title"> INFORMACION AQUI </h3>
+            <h3 class="information--title"> INFORMACION AQUI </h3>
         </div>
 
         <section class="section-genre">

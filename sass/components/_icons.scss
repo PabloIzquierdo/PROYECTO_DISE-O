@@ -1,6 +1,6 @@
 .icon_ES {
     width: 1.4vw;
-    height: 0.8vw;
+    height: 0.9vw;
     margin-right: 0.5vw;
 }
 .icon_ubica {
@@ -10,12 +10,12 @@
 }
 .icon_hlp {
     width: 0.7vw;
-    height: 1.02vw;
+    height: 0.9vw;
     margin-right: 0.1vw;
 }
 .icon_email {
     width: 1.1vw;
-    height: 0.94vw;
+    height: 0.9vw;
     margin-right: 0.1vw;
 }
 .icon_info {
@@ -31,6 +31,22 @@
     width: 1.2vw;
     height: 0.9vw;
     margin-right: 0.2vw;
+}
+
+.icon_loop{
+    width: 1.4vw;
+    height: 1.2vw;
+    margin-right: 16vw;
+
+
+    &-textbox{
+        width: 15vw;
+        height: 2.5vw;
+        position: absolute;
+        top: .2%;
+        left: 33%;
+        
+    }
 }
 
 .icon_m {

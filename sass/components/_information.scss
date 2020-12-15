@@ -1,0 +1,22 @@
+.information{
+    color: $color-white;
+    text-align:center;
+    background-color: $color-black;
+    border: solid $color-black 0.5vw;
+    position: relative;
+    cursor: pointer;
+    height: 4vw;
+    width: 100%;
+    padding-top: 0.5vh;
+
+    &--title {
+        font-size: 1vw;
+        width: 20vw;
+        margin-left: 40vw;
+        transition: transform 0.5s;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
