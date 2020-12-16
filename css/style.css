@@ -126,13 +126,7 @@ body {
 .icon_loop {
   width: 1.4vw;
   height: 1.2vw;
-  margin-right: 16vw; }
-  .icon_loop-textbox {
-    width: 15vw;
-    height: 2.5vw;
-    position: absolute;
-    top: .2%;
-    left: 33%; }
+  margin-right: .2vw; }
 
 .icon_m {
   width: 2.5vw;
@@ -281,6 +275,23 @@ body {
 
 .season-autumn {
   background-image: linear-gradient(90deg, #503100, #b36e00); }
+
+.search__textbox {
+  width: 1vw;
+  height: 0.6vw;
+  position: absolute;
+  top: 0;
+  left: 81%; }
+
+.search__button {
+  position: absolute;
+  top: 0%;
+  left: 73%;
+  height: 2vw;
+  display: none; }
+
+.search__button:checked ~ .search__textbox {
+  width: 30vw; }
 
 .background-video {
   position: absolute;

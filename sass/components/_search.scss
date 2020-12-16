@@ -1,0 +1,21 @@
+.search{
+    &__textbox{
+        width: 1vw;
+        height: 0.6vw;
+        position: absolute;
+        top: 0;
+        left: 81%;        
+    }
+
+    &__button{
+        position: absolute;
+        top: 0%;
+        left: 73%;
+        height: 2vw;
+        display: none;
+    }
+    &__button:checked~&__textbox{
+        width: 30vw;
+    }
+
+}
