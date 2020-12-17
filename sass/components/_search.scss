@@ -1,21 +1,28 @@
 .search{
     &__textbox{
         width: 1vw;
-        height: 0.6vw;
+        height: 3vw;
         position: absolute;
-        top: 0;
-        left: 81%;        
+        top: -0.5vw;
+        left: 94%;   
+        display: none;
+        transition: all 1s;
+        border: transparent;
+        border-bottom: 1px solid red;
+        transform: 1s all;
     }
 
     &__button{
         position: absolute;
-        top: 0%;
-        left: 73%;
+        top: 10%;
+        left: 78%;
         height: 2vw;
-        display: none;
+        opacity: 0;
     }
     &__button:checked~&__textbox{
         width: 30vw;
+        transform: translateX(-32vw);
+        display: inline;
     }
 
 }
